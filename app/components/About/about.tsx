@@ -1,14 +1,14 @@
 import React from 'react';
-import Border from './Border';
-import Hero from './Hero';
+import Background from './background';
+import Body from './body';
 
-const Intro = () => {
+const About = () => {
   return (
     <div className='h-[1044px] w-full flex justify-end items-center overflow-hidden relative'>
-      <Border/>
-      <Hero/>
+      <Background/>
+      <Body/>
     </div>
   )
 }
 
-export default Intro
+export default About

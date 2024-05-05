@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import ListFaqs from "./ListFaqs";
+import ListFaqs from "./faqsList";
 const FAQS = () => {
   return (
     <div className="h-[813px] w-full p-6">

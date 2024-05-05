@@ -1,5 +1,5 @@
 "use client";
-import { FaqDatas } from "../lib/data";
+import { FaqDatas } from "../../lib/data";
 import { useState } from "react";
 
 interface faqData {

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Border = () => {
+const Background = () => {
   return (
     <div className='-mr-[70px] mt-[2rem] w-[26.1rem] h-[36rem] grid grid-cols-3'>
         <div className='h-[12rem] w-[8.7rem] border-l-2 border-t-2 border-r border-b-2 rounded-2xl rounded-tl-[3rem] border-[#f4f4f4]'></div>
@@ -16,4 +16,4 @@ const Border = () => {
   )
 }
 
-export default Border
+export default Background

@@ -1,12 +1,12 @@
-import Navbar from "@/app/components/Navbar";
-import Intro from "./components/Intro";
-import FAQS from "./components/FAQS";
-import Footer from "./components/Footer";
+import Header from "@/app/components/Header/header";
+import About from "./components/About/about";
+import FAQS from "./components/FAQ/faqs";
+import Footer from "./components/Footer/footer";
 export default function Home() {
   return (
     <main className="pt-5 flex flex-col justify-center items-center">
-      <Navbar/>
-      <Intro/>
+      <Header/>
+      <About/>
       <FAQS/>
       <Footer/>
     </main>
