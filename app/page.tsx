@@ -4,11 +4,15 @@ import FAQS from "./components/FAQ/faqs";
 import Footer from "./components/Footer/footer";
 export default function Home() {
   return (
-    <main className="pt-5 flex flex-col justify-center items-center">
-      <Header/>
-      <About/>
-      <FAQS/>
-      <Footer/>
-    </main>
+    <>
+      <section className="px-5 pt-5 flex flex-col justify-center items-center">
+        <Header />
+      </section> 
+      <About />
+      <section className="p-5 pt-8 flex flex-col justify-center items-center">
+        <FAQS />
+        <Footer />
+      </section>
+    </>
   );
 }

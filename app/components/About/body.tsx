@@ -5,9 +5,9 @@ import Explore from "./explore";
 
 const Body = () => {
   return (
-    <div className="w-[1233px] h-[886px] absolute top-[79px] right-[62px] flex flex-col items-center justify-between pl-14">
+    <div className="lg:w-[1233px] w-full sm:h-[886px] absolute top-[79px] left-1/2 transform -translate-x-1/2 flex flex-col items-center justify-between">
       <Intro title="Success Stories" description="Every success journey we’ve encountered."/>
-      <div className="w-full h-[5966px] flex justify-between items-end">
+      <div className="w-full flex lg:flex-row lg:justify-between lg:items-end flex-col mt-6">
         <Hero/>
         <Explore/>
       </div>

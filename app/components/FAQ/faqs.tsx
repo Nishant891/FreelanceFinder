@@ -3,18 +3,18 @@ import Image from "next/image";
 import ListFaqs from "./faqsList";
 const FAQS = () => {
   return (
-    <div className="h-[813px] w-full p-6">
-      <div className="w-full h-[749px] rounded-[40px] bg-[#E8EEE7] flex gap-[7.5rem] pt-12">
-        <div className="w-[491px] h-full flex flex-col items-end justify-end gap-[4rem]">
-          <div className="w-[405px] h-[111px] flex flex-col gap-[12px]">
+    <div className="h-[813px] w-full">
+      <div className="w-full h-[749px] rounded-[40px] bg-[#E8EEE7] flex md:items-start md:flex-row gap-[1rem] md:gap-[7.5rem] flex-col items-center pt-12">
+        <div className="md:w-[491px] w-full md:h-full h-[106px] flex flex-col md:items-end md:justify-end items-center justify-center gap-[6px] md:gap-[4rem]">
+          <div className="md:w-[405px] w-full h-full md:h-[111px] flex flex-col gap-[12px] pl-2 md:pl-0">
             <h1 className="covered-by-your-grace-regular text-[32px] font-[400] leading-[35.2px] tracing-[-2px] text-[#9E9D9D]">
               What’s on your mind
             </h1>
-            <p className="manrope text-[58px] font-[600] leading-[66px] tracing-[-1px] text-[#1C1C1C]">
+            <p className="manrope md:text-[58px] text-[40px] font-[600] leading-[66px] tracing-[-1px] text-[#1C1C1C]">
               Ask Questions
             </p>
           </div>
-          <div className="w-[476.49px] h-[514.61px] mr-4">
+          <div className="w-[476.49px] h-[514.61px] mr-4 hidden md:block">
             <svg
               width="491"
               height="475"
@@ -45,7 +45,7 @@ const FAQS = () => {
             </svg>
           </div>
         </div>
-        <ul className="w-[581px] h-[538px] mt-[4.8rem] overflow-scroll list-scrollbar">
+        <ul className="md:p-0 md:w-[581px] h-[538px] md:mt-[2.3rem] w-full p-3 overflow-scroll list-scrollbar">
           <ListFaqs />
         </ul>
       </div>

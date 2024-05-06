@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="w-[727.49px] h-[596px] relative">
+    <div className="w-[727.49px] h-[596px] relative ml-3">
       <div className="w-[506.98px] h-[546.27px] bg-green-300 rounded-[3rem] ml-36">
         <Image
           className="w-full h-full object-cover object-top rounded-[3rem] bg-blend-multiply"

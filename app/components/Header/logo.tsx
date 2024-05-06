@@ -2,7 +2,7 @@ import React from "react";
 
 const Logo = () => {
   return (
-    <div className="pl-[2.6rem]">
+    <div className="sm:pl-[2.6rem]">
       <svg
         width="121"
         height="32"

@@ -4,7 +4,7 @@ import Arrow from "@/public/arrow.svg";
 
 const Explore = () => {
   return (
-    <div className="w-[356.98px] h-[596.27px] flex flex-col justify-around">
+    <div className="w-[356.98px] h-[596.27px] flex flex-col justify-around mr-10">
       <div className="w-full h-[246px] flex flex-col justify-between">
         <p className="w-[398px] h-[192px] manrope text-[40px] font-[600] leading-[48px] tracking-[-2px] text-[#1C1C1C]">
           Enhance fortune 50 company’s insights teams research capabilities

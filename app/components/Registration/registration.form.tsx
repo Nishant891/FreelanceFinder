@@ -41,13 +41,13 @@ const RegistrationForm = ({
   return (
     <>
       {submitSuccess ? <RegistrationSuccess/> : 
-      <div className="w-[588px] h-[538.22px] flex flex-col gap-[62px] items-center mt-[3rem] mb-[1rem]">
+      <div className="sm:w-[588px] w-full h-[538.22px] flex flex-col gap-[62px] items-center mt-[3rem] mb-[1rem]">
         <Intro title="Registration Form" description="Start your success Journey here!"/>
         <form
           onSubmit={handleSubmit}
-          className="h-[298.22px] w-[417px] flex flex-col gap-[57px]"
+          className="h-[298.22px] sm:w-[417px] w-full flex flex-col gap-[57px]"
         >
-          <div className="w-[417px] h-[174px] flex flex-col gap-[24px]">
+          <div className="sm:w-[417px] w-full h-[174px] flex flex-col gap-[24px]">
             <input
               type="text"
               name="name"
@@ -99,7 +99,7 @@ const RegistrationForm = ({
           </div>
           <button
             disabled={user.name === "" || user.email === ""}
-            className={`w-[417px] h-[77.22px] rounded-[107.06px] bg-[#1C1C1C] disabled:bg-[#C9C9C9]`}
+            className={`sm:w-[417px] w-full h-[77.22px] rounded-[107.06px] bg-[#1C1C1C] disabled:bg-[#C9C9C9] focus:outline-none`}
           >
             <p className="manrope text-[18px] font-[600] leading-[24.59px] text-[#FFFFFF]">
               Submit
