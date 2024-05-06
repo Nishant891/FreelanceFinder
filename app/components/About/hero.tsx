@@ -4,15 +4,15 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="lg:w-[727.49px] w-full h-[596px] relative lg:ml-3 ml-0 flex justify-center">
-      <div className="lg:w-[506.98px] w-[406px] h-[546.27px] bg-green-300 rounded-[3rem] lg:ml-[3.8rem] ml-0">
+    <div className="h-[596px] lg:w-[727.49px] lg:ml-3 w-full ml-0 relative flex justify-center">
+      <div className="h-[546.27px] lg:w-[506.98px] lg:ml-[3.8rem] w-[406px] ml-0 bg-green-300 rounded-[3rem]">
         <Image
           className="w-full h-full object-cover object-top rounded-[3rem] bg-blend-multiply"
           src={Excited_Girl}
           alt="Excited Girl"
         />
       </div>
-      <div className="absolute lg:top-[108px] top-[238px] lg:left-[12px] left-[1/2] rounded-[27.11px] w-[267.82px] h-[239px] p-6 bg-[#FFFFFF] custom-shadow transition-all">
+      <div className="custom-shadow absolute lg:top-[108px] lg:left-[12px] top-[238px] left-[1/2] w-[267.82px] h-[239px] rounded-[27.11px] p-6 bg-[#FFFFFF] transition duration-300 ease-in-out hover:scale-105">
         <div className="relative ">
           <span className="absolute bottom-7 -left-9">
             <svg
@@ -48,14 +48,14 @@ const Hero = () => {
             40%
           </h1>
         </div>
-        <div className="text-[#828282] w-[207.82px] h-[92px] manrope font-[500] text-[18px] leading-[23.4px] mt-2">
+        <div className="manrope w-[207.82px] h-[92px] font-[500] text-[18px] text-[#828282] leading-[23.4px] mt-2">
           <p>
             Achieved reduction in project execution time by optimising team
             availability
           </p>
         </div>
       </div>
-      <div className="absolute lg:bottom-[90px] bottom-[20px] lg:left-[82px] left-[1/2] flex justify-evenly items-center w-[245px] h-[88px] rounded-[111.54px] bg-[#FFFFFF] shadow-lg pr-2">
+      <div className="group flex justify-evenly items-center w-[245px] h-[88px] absolute lg:bottom-[90px] lg:left-[82px] bottom-[20px] left-[1/2] rounded-[111.54px] bg-[#FFFFFF] shadow-lg pr-2 transition duration-300 ease-in-out hover:bg-gray-900">
         <div className="p-3 rounded-full bg-[#DDEFE0]">
           <svg
             width="26"
@@ -71,7 +71,7 @@ const Hero = () => {
           </svg>
         </div>
         <div className="flex flex-col justify-evenly items-start">
-          <h1 className="manrope font-[700] text-[24px] leading-[32.78px]">
+          <h1 className="manrope font-[700] text-[24px] leading-[32.78px] group-hover:text-[#fefefe]">
             10 DAYS
           </h1>
           <p className="manrope font-[500] text-[16px] text-[#828282] leading-[20.8px]">
@@ -79,7 +79,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className="absolute bottom-[8px] right-[12px] hidden lg:block border-[1.18px] border-[#3D3D3D] rounded-[28.36px] w-[290.49px] h-[239px] pt-[34px] pr-[30px] pb-[40px] pl-[36px] bg-[#002E18] flex flex-col gap-[20px]">
+      <div className="flex flex-col gap-[20px] w-[290.49px] h-[239px] absolute lg:bottom-[8px] lg:right-[12px] bottom-[-228px] right-[1/2] border-[1.18px] border-[#3D3D3D] rounded-[28.36px] pt-[34px] pr-[30px] pb-[40px] pl-[36px] bg-[#002E18] transition duration-300 ease-in-out hover:translate-y-2">
         <div className="w-[221px] h-[76px] flex items-end justify-center gap-[11px]">
           <h1 className="font-Switzer font-[500] text-[63.37px] leading-[76.05px] text-[#FFFFFF] tracking-[-3px]">
             $0.5
@@ -88,7 +88,7 @@ const Hero = () => {
             MILLION
           </p>
         </div>
-        <div className="text-[#CCCCCC] w-[224.49px] h-[69px] manrope font-[500] text-[18px] leading-[23.4px]">
+        <div className="manrope text-[#CCCCCC] w-[224.49px] h-[69px] font-[500] text-[18px] leading-[23.4px]">
           <p>Reduced client expenses by saving on hiring and employee costs.</p>
         </div>
       </div>

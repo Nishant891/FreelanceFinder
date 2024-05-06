@@ -15,7 +15,7 @@ const RegistrationSuccess = () => {
   }, []);
   return (
     <div className="flex flex-col gap-[5rem]">
-      <div className="sm:w-[718px] w-full h-[357px] flex flex-col gap-[41px] justify-center items-center mt-[3rem] mb-[1rem]">
+      <div className="h-[357px] sm:w-[718px] w-full flex flex-col gap-[41px] justify-center items-center mt-[3rem] mb-[1rem]">
         <span>
           <svg
             width="80"
@@ -31,8 +31,8 @@ const RegistrationSuccess = () => {
             />
           </svg>
         </span>
-        <div className="sm:w-[718px] w-full h-[236px] flex flex-col gap-[16px] justify-center items-center">
-          <p className="text-[36px] font-[400] covered-by-your-grace-regular leading-[39.6px] tracing-[-2px] text-[#2DA950]">
+        <div className="h-[236px] sm:w-[718px] w-full flex flex-col gap-[16px] justify-center items-center">
+          <p className="covered-by-your-grace-regular text-[36px] font-[400] leading-[39.6px] tracing-[-2px] text-[#2DA950]">
             Success Submitted
           </p>
           <p className="manrope sm:text-[56px] text-[44px] font-[600] leading-[67.2px] tracing-[-2px] text-[#1C1C1C]">

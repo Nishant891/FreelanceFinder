@@ -8,7 +8,7 @@ const RegistrationPage = () => {
   return (
     <>
         <RegistrationHeader submitSuccess={submitSuccess}/>
-        <main className='h-full w-full p-2 sm:p-0 flex justify-center items-center'>
+        <main className='h-full w-full flex justify-center items-center sm:p-0 p-2'>
             <RegistrationForm submitSuccess={submitSuccess} setSubmitSuccess={setSubmitSuccess}/>
         </main>
     </>

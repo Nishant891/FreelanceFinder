@@ -1,16 +1,15 @@
 import React from "react";
-import Image from "next/image";
 import ListFaqs from "./faqsList";
 const FAQS = () => {
   return (
     <div className="h-[813px] w-full">
-      <div className="w-full h-[749px] rounded-[40px] bg-[#E8EEE7] flex md:items-start md:flex-row gap-[1rem] md:gap-[7.5rem] flex-col items-center pt-12">
-        <div className="md:w-[491px] w-full md:h-full h-[106px] flex flex-col md:items-end md:justify-end items-center justify-center gap-[6px] md:gap-[4rem]">
-          <div className="md:w-[405px] w-full h-full md:h-[111px] flex flex-col gap-[12px] pl-2 md:pl-0">
+      <div className="w-full h-[749px] flex rounded-[40px] pt-12 bg-[#E8EEE7] md:flex-row md:items-start md:gap-[7.5rem] flex-col items-center gap-[1rem]">
+        <div className="flex flex-col md:w-[491px] md:h-full md:items-end md:justify-end md:gap-[4rem] w-full h-[106px] items-center justify-center gap-[6px] ">
+          <div className="flex flex-col gap-[12px] md:w-[405px] md:h-[111px] md:pl-0 w-full h-full pl-4">
             <h1 className="covered-by-your-grace-regular text-[32px] font-[400] leading-[35.2px] tracing-[-2px] text-[#9E9D9D]">
               What’s on your mind
             </h1>
-            <p className="manrope md:text-[58px] text-[40px] font-[600] leading-[66px] tracing-[-1px] text-[#1C1C1C]">
+            <p className="manrope font-[600] leading-[66px] tracing-[-1px] text-[#1C1C1C] md:text-[58px] text-[40px]">
               Ask Questions
             </p>
           </div>
@@ -45,7 +44,7 @@ const FAQS = () => {
             </svg>
           </div>
         </div>
-        <ul className="md:p-0 md:w-[581px] h-[538px] md:mt-[2.3rem] w-full p-3 overflow-scroll list-scrollbar">
+        <ul className="h-[538px] overflow-scroll list-scrollbar md:w-[581px] md:p-0 md:mt-[2.3rem] w-full p-3">
           <ListFaqs />
         </ul>
       </div>

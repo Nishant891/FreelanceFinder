@@ -17,7 +17,7 @@ const RegistrationHeader = ({ submitSuccess }: RegistrationHeaderProps) => {
           onClick={() => {
             router.push("/");
           }}
-          className="h-[64px] w-[64px] p-[16px] mr-1 sm:mr-8 border rounded-[40px]"
+          className="h-[64px] w-[64px] sm:mr-8 mr-1 p-[16px] border rounded-[40px]"
         >
           <svg
             width="32"

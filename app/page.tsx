@@ -5,11 +5,11 @@ import Footer from "./components/Footer/footer";
 export default function Home() {
   return (
     <>
-      <section className="px-5 pt-5 flex flex-col justify-center items-center">
+      <section className="flex flex-col justify-center items-center lg:px-5 px-2 pt-5">
         <Header />
       </section> 
       <About />
-      <section className="p-5 pt-8 flex flex-col justify-center items-center">
+      <section className="flex flex-col justify-center items-center p-5 pt-8">
         <FAQS />
         <Footer />
       </section>
