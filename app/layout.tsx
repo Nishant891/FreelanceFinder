@@ -21,7 +21,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Manrope:wght@200..800&display=swap" rel="stylesheet"/>
       </head>
-      <body className={`${inter.className} bg-gray-50`}>
+      <body className={`${inter.className} bg-white`}>
         {children}
       </body>
     </html>

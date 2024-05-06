@@ -27,7 +27,7 @@ const ListFaqs = () => {
             key={FaqData.id}
             className="w-full border-b border-b-gray-300 pb-6"
           >
-            <div className="w-full flex justify-between items-center mt-8 gap-[6rem]">
+            <div className="w-full flex justify-between items-center mt-8 lg:gap-[6rem] gap-[2rem]">
               <p className="manrope font-[600] text-[20px] leading-[28px]">
                 {FaqData.question}
               </p>

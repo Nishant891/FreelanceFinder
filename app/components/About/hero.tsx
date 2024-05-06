@@ -4,15 +4,15 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="w-[727.49px] h-[596px] relative ml-3">
-      <div className="w-[506.98px] h-[546.27px] bg-green-300 rounded-[3rem] ml-36">
+    <div className="lg:w-[727.49px] w-full h-[596px] relative lg:ml-3 ml-0 flex justify-center">
+      <div className="lg:w-[506.98px] w-[406px] h-[546.27px] bg-green-300 rounded-[3rem] lg:ml-[3.8rem] ml-0">
         <Image
           className="w-full h-full object-cover object-top rounded-[3rem] bg-blend-multiply"
           src={Excited_Girl}
           alt="Excited Girl"
         />
       </div>
-      <div className="absolute top-[108px] left-[12px] rounded-[27.11px] w-[267.82px] h-[239px] p-6 bg-[#FFFFFF] shadow-md transition-all">
+      <div className="absolute lg:top-[108px] top-[238px] lg:left-[12px] left-[1/2] rounded-[27.11px] w-[267.82px] h-[239px] p-6 bg-[#FFFFFF] custom-shadow transition-all">
         <div className="relative ">
           <span className="absolute bottom-7 -left-9">
             <svg
@@ -55,7 +55,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className="absolute bottom-[90px] left-[82px] flex justify-evenly items-center w-[245px] h-[88px] rounded-[111.54px] bg-[#FFFFFF] shadow-lg pr-2">
+      <div className="absolute lg:bottom-[90px] bottom-[20px] lg:left-[82px] left-[1/2] flex justify-evenly items-center w-[245px] h-[88px] rounded-[111.54px] bg-[#FFFFFF] shadow-lg pr-2">
         <div className="p-3 rounded-full bg-[#DDEFE0]">
           <svg
             width="26"
@@ -79,7 +79,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className="absolute bottom-[8px] right-[12px] border-[1.18px] border-[#3D3D3D] rounded-[28.36px] w-[290.49px] h-[239px] pt-[34px] pr-[30px] pb-[40px] pl-[36px] bg-[#002E18] flex flex-col gap-[20px]">
+      <div className="absolute bottom-[8px] right-[12px] hidden lg:block border-[1.18px] border-[#3D3D3D] rounded-[28.36px] w-[290.49px] h-[239px] pt-[34px] pr-[30px] pb-[40px] pl-[36px] bg-[#002E18] flex flex-col gap-[20px]">
         <div className="w-[221px] h-[76px] flex items-end justify-center gap-[11px]">
           <h1 className="font-Switzer font-[500] text-[63.37px] leading-[76.05px] text-[#FFFFFF] tracking-[-3px]">
             $0.5

@@ -9,7 +9,7 @@ const Intro = ({title, description} : IntroProps) => {
       <p className="covered-by-your-grace-regular text-[36px] text-[#2DA950] font-[400]">
         {title}
       </p>
-      <p className="tracking-[-1.7px] leading-[67.2px] manrope font-[600] text-[44px] sm:text-[56px] text-center">
+      <p className="tracking-[-1.7px] lg:leading-[67.2px] leading-[47px] manrope font-[600] text-[44px] sm:text-[56px] text-center">
         {description}
       </p>
     </div>

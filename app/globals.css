@@ -17,10 +17,14 @@
 }
 
 html {
-  scrollbar-width: none; /* Firefox */
+  scrollbar-width: none;
 }
 
 .list-scrollbar{
   scrollbar-width: none;
+}
+
+.custom-shadow {
+  box-shadow: -2px 28px 30px rgba(136, 134, 134, 0.2);
 }
 
