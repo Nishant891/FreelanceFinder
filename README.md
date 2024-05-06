@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# THENCE ASSESSMENT PROJECT
 
-## Getting Started
+## WEBSITE - _[CODING FLUX]_(https://thence-assessment.vercel.app/)
 
-First, run the development server:
+## Acknowledgement
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+I am very grateful to Thence for providing me with this opportunity. I have put in a lot of effort in the project and tried my best to maintain readability, reusability and followed best practices. I have tried to create the website as close as to the design provided. I have structured the whole projects in folder according to different section and components.
+
+## Tailwind Structure
+
+I have tailwindcss classes structured as such :
+
+![tailwind-classes-structure](https://github.com/Nishant891/Thence_assessment/assets/109356848/942f56cf-a69d-4af4-92ce-05ca06ddb5b0)
+
+
+## Setup
+
+1. Clone the project in your local machine run
+
+```
+git clone "https://github.com/Nishant891/Thence_assessment.git"
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. and then run 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm install
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Then 
 
-## Learn More
+```
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Assumptions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The website is built with nextjs using react since, it is SEO friendly and the build time is very less with turbo.
+Only Image component is used from Nextjs and next/router for navigation.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

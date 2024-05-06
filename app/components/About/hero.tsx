@@ -12,7 +12,7 @@ const Hero = () => {
           alt="Excited Girl"
         />
       </div>
-      <div className="custom-shadow absolute lg:top-[108px] lg:left-[12px] top-[238px] left-[1/2] w-[267.82px] h-[239px] rounded-[27.11px] p-6 bg-[#FFFFFF] transition duration-300 ease-in-out hover:scale-105">
+      <div className="custom-shadow w-[267.82px] h-[239px] absolute lg:top-[108px] lg:left-[12px] top-[238px] left-[1/2] rounded-[27.11px] p-6 bg-[#FFFFFF] transition duration-300 ease-in-out hover:scale-105">
         <div className="relative ">
           <span className="absolute bottom-7 -left-9">
             <svg
