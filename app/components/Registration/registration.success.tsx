@@ -35,17 +35,17 @@ const RegistrationSuccess = () => {
           <p className="text-[36px] font-[400] covered-by-your-grace-regular leading-[39.6px] tracing-[-2px] text-[#2DA950]">
             Success Submitted
           </p>
-          <p className="manrope text-[56px] font-[600] leading-[67.2px] tracing-[-2px] text-[#1C1C1C]">
+          <p className="manrope sm:text-[56px] text-[44px] font-[600] leading-[67.2px] tracing-[-2px] text-[#1C1C1C]">
             Congratulations
           </p>
-          <p className="manrope text-[27px] font-[500] leading-[35.1px] text-[#727272] text-center">
+          <p className="manrope sm:text-[27px] text-[15px] font-[500] leading-[35.1px] text-[#727272] text-center">
             Your request has been successfully submitted to us. We will validate
             your information and reach out to your shortly with updates
           </p>
         </div>
       </div>
       <div className="w-full">
-        <p className="manrope text-[20px] font-[500] leading-[26px] text-center text-[#727272]">
+        <p className="manrope sm:text-[20px] text-[10px] font-[500] leading-[26px] text-center text-[#727272]">
           Redirecting you to Homepage in{" "}
           <span className="text-[#1C1C1C]">
             <span className="text-[#1C1C1C]">{count}</span> Seconds

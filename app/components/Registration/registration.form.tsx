@@ -45,7 +45,7 @@ const RegistrationForm = ({
         <Intro title="Registration Form" description="Start your success Journey here!"/>
         <form
           onSubmit={handleSubmit}
-          className="h-[298.22px] sm:w-[417px] w-full flex flex-col gap-[57px]"
+          className="h-[298.22px] sm:w-[417px] mt-4 sm:mt-0 w-full flex flex-col gap-[57px]"
         >
           <div className="sm:w-[417px] w-full h-[174px] flex flex-col gap-[24px]">
             <input
