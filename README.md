@@ -4,7 +4,7 @@
 
 ## Acknowledgement
 
-I am very grateful to Thence for providing me with this opportunity. I have put in a lot of effort in the project and tried my best to maintain readability, reusability and followed best practices. I have tried to create the website as close as to the design provided. I have structured the whole projects in folder according to different section and components.
+I want to thank Thence for giving me this chance. I worked hard on the project, making sure it was easy to read, reuse, and followed good practices. I tried my best to make the website look just like the design provided. I also organized the project into folders for different sections and components.
 
 ## Tailwind Structure
 
@@ -34,7 +34,6 @@ npm run dev
 
 ## Assumptions
 
-The website is built with nextjs using react since, it is SEO friendly and the build time is very less with turbo.
-Only Image component is used from Nextjs and next/router for navigation.
+The website is built using Next.js with React, which offers excellent SEO capabilities and a rapid build time thanks to its turbo feature. For navigation, I utilized the next/router module.
 
 
