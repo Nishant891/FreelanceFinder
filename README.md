@@ -25,6 +25,7 @@ git clone "https://github.com/Nishant891/Thence_assessment.git"
 
 ```
 npm install
+```
 
 3. Then 
 
