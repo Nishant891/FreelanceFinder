@@ -1,6 +1,6 @@
 # THENCE ASSESSMENT PROJECT
 
-## WEBSITE - _[CODING FLUX]_(https://thence-assessment.vercel.app/)
+## WEBSITE - [freelancefinder](https://freelancefinder.vercel.app/)
 
 ## Acknowledgement
 
